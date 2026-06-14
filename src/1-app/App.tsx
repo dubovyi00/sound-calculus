@@ -1,5 +1,5 @@
 import NotesConverter from "../2-widgets/notes-converter/NotesConverter";
-import Header from "../4-shared/header/Header";
+import Header from "../5-shared/header/Header";
 
 // Main app component
 const App = () => (

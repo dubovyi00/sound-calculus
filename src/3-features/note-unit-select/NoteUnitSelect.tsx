@@ -1,6 +1,6 @@
-import DropdownList from "../../4-shared/dropdown-list/DropdownList";
-import type { PitchUnit } from "../../5-utils/note-converter/units";
-import { PITCH_UNITS } from "../../5-utils/note-converter/units";
+import DropdownList from "../../5-shared/dropdown-list/DropdownList";
+import type { PitchUnit } from "../../4-entities/note-converter/units";
+import { PITCH_UNITS } from "../../4-entities/note-converter/units";
 
 interface NoteUnitSelectProps {
   // Measurement unit value

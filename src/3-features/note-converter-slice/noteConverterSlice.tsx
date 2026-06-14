@@ -1,5 +1,5 @@
 import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
-import type { PitchUnit } from "../../5-utils/note-converter/units";
+import type { PitchUnit } from "../../4-entities/note-converter/units";
 
 interface NoteConverterState {
   // Value to convert

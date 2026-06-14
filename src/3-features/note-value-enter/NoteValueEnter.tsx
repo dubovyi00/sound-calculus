@@ -1,5 +1,5 @@
-import InputBox from "../../4-shared/input-box/InputBox";
-import type { PitchUnit } from "./units";
+import InputBox from "../../5-shared/input-box/InputBox";
+import type { PitchUnit } from "../../4-entities/note-converter/units";
 
 interface NoteUnitSelectProps {
   // Measurement unit value

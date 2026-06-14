@@ -4,6 +4,7 @@ interface InputBoxProps {
   id?: string;
 }
 
+// Base component for text input
 const InputBox = ({ value, onChange, id }: InputBoxProps) => (
   <input
     className={`flex bg-pale-sky w-40 h-20`}

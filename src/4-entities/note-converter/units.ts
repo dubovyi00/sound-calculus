@@ -1,4 +1,4 @@
-import type { UnitOption } from "../../4-shared/unit-option/UnitOption";
+import type { UnitOption } from "../../5-shared/unit-option/UnitOption";
 
 export const PITCH_UNITS: UnitOption[] = [
   { value: "hz", label: "Frequency (Hz)" },

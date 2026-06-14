@@ -5,9 +5,10 @@ import {
   setOutputValue,
   setOutputUnit,
 } from "../../3-features/note-converter-slice/noteConverterSlice";
-import InputBox from "../../4-shared/input-box/InputBox";
+import InputBox from "../../5-shared/input-box/InputBox";
 import NoteUnitSelect from "../../3-features/note-unit-select/NoteUnitSelect";
-import WidgetName from "../../4-shared/widget-name/WidgetName";
+import WidgetName from "../../5-shared/widget-name/WidgetName";
+import SwitchButton from "../../5-shared/switch-button/SwitchButton";
 
 // Notes converter widget
 const NotesConverter = () => {
@@ -34,7 +35,7 @@ const NotesConverter = () => {
           />
         </div>
         <div className="flex flex-col justify-around">
-          <span className="text-4xl text-pale-sky">⇄</span>
+          <SwitchButton onChange={null} />
         </div>
         <div className="flex flex-col justify-around">
           <NoteUnitSelect
@@ -49,6 +50,7 @@ const NotesConverter = () => {
           />
         </div>
       </div>
+      <span>{inputValue}</span>
     </div>
   );
 };
